@@ -36,3 +36,11 @@ HTTP:
 	
 	Toda requisição esta ligada a um verbo.
 	
+Framework:
+
+	Conjunto de ferramentas feitas pensando em resolver problemas especificos.
+	
+	Vamos usar:
+		BootStrap
+		JQuery
+	
