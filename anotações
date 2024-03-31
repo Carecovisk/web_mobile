@@ -43,4 +43,61 @@ Framework:
 	Vamos usar:
 		BootStrap
 		JQuery
+		
+
+Padrões arquiteturais:
+
+	Definem estrutura, interações e organização dos componentes do software.
 	
+	principais:
+		Monolitico
+		Microserviços
+		Model-View-Controller (MVC)
+		
+Monolítico:
+
+	Aplicação formada por modulos fortemente acoplados que forma o sistema.
+	Grande bloco de funcionalidades.
+	
+	Facíl de desenvolver, mas dificil de escalar.
+	Dificuldade para desenvolvedores de software novos entrarem no projeto.
+	Dificuldade para adicionar novas tecnologias.
+	
+	É bom para pequenos projetos e pessimo para grandes.
+	
+Microserviços:
+
+	Provê a separação dos elementos de funcionalidade, colocados em serviços separados.
+	
+	Cada funcionalidade é separada em serviços bem definidos que podem ou não complementar outra funcionalidade.
+	
+MVC:
+
+	Model-View-Controller é um padrão de arquitetura de software que separa a representação da informação da interação do usuario com ele.
+	
+	Alterações feitas no layout não afetam a manipulação de dados, e estes poderão ser reorganizados sem alterar o layout.
+	
+	Provê a separação das tarefas de acesso aos dados e lógicas de negócios, lógica de apresentação e de interação com o utilizador, introduzindo um componente entre os dois:
+o controlador.
+
+	Model:
+		Consiste nos dados da aplicação, regras de negócio, lógica e funções.
+	View:
+		Representação dos dados seja qual for.
+	Controller:
+		Tradicionalmente associado a uma rota ou URL
+		
+	
+Mapeamento Objeto Relacional:
+
+
+Usar metodologias ageis:
+	 XP ou Scrum
+	XP:
+	Cliente presente: o cliente deve participar ativamente do processo desenvolvimento.
+
+	Planejamento: o desenvolvimento utilizando o XP é feito em interações.
+
+	Releses curtos: As liberações de pequenas versões funcionais
+
+
